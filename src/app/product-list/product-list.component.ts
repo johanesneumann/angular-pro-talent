@@ -17,6 +17,10 @@ export class ProductListComponent {
   notificacao(){
     window.alert('Voce sera notificado quando o produto estiver em promoção');
   }
+
+  onNotify() {
+    window.alert('You will be notified when the product goes on sale');
+  }
 }
 
 /*
